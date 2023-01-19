@@ -16,5 +16,5 @@
 
 ### Architecture
 - MVC (Model - View - Controller)
-- Agile (No framework)
+- Agile (SCRUM)
 - N-tier Architecture

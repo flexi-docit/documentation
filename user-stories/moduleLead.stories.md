@@ -1,6 +1,6 @@
 ## Active Stories
 
-- As a module lead, I want to allow access to my module to enployees.
+- As a module lead, I want to allow access to my module to employees.
 - As a module lead, I want to create, edit and delete project-related documentation modules.
 - As a module lead, I can view my team and their details.
 

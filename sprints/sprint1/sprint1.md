@@ -22,4 +22,4 @@ Feb 1 - Feb 20
 | 2 February to 7 February | Execution of sprint |
 | 8 February | Revision of the project plan |
 | 14 February | Sprint Completion |
-
+| 15 February | Sprint retrospective |

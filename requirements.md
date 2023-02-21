@@ -15,20 +15,21 @@ This is the requirement document for Documentation Management System (DMS) and a
 
 ## 2.1 Brief Requirements [User Stories]
 
-| Sr. No. | Requirement                                                                                                                                                |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1       | As a developer, I should be able to login to the dms portal using my email & a pre-generated password so that I can access it.                             |
-| 2       | As a developer, I can reset/change my password with a mail based OTP/reset link/similar system.                                                            |
+| Sr. No. | Requirement                                                                                                                                               |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | As a developer, I should be able to login to the dms portal using my email & a pre-generated password so that I can access it.                            |
+| 2       | As a developer, I can reset/change my password with a mail based OTP/reset link/similar system.                                                           |
 | 3       | As a developer, I should be able to see the list of modules that I am a part of their details like number of employees, team lead, modules included, etc. |
-| 4       | As a developer I can read the documentation I am a part of.                                                                                                |
-| 5       | As a module lead, I want to allow access to my module to enployees.                                                                                        |
+| 4       | As a developer I can read the documentation I am a part of.                                                                                               |
+| 5       | As a module lead, I want to allow access to my module to enployees.                                                                                       |
 | 6       | As a module lead, I want to create, edit and delete module-related documentation modules.                                                                 |
-| 7       | As a module lead, I can view my team and their details.                                                                                                    |
-| 12      | As a team lead, I want to create tags for my modules.
-| 8       | As a team lead, I want to create, edit and delete modules for my project.                                                                                  |
-| 9       | As a team lead, I can assign upto one employee per module as module lead.                                                                                  |
-| 10      | As a team lead, I want to be able to change the assigned module lead.                                                                                         |
-| 11      | As a team lead, I can pull up the profile of any employees under me containing name, email and other details.                                              |
+| 7       | As a module lead, I can view my team and their details.                                                                                                   |
+| 8       | As a team lead, I want to create, edit and delete modules for my project.                                                                                 |
+| 9       | As a team lead, I can assign upto one employee per module as module lead.                                                                                 |
+| 10      | As a team lead, I want to be able to change the assigned module lead.                                                                                     |
+| 11      | As a team lead, I can pull up the profile of any employees under me containing name, email and other details.                                             |
+| 12      | As a team lead, I want to create tags for my modules.                                                                                                     |
+
 ## 3.0 Roles
 
 **Graph of how roles will work**
@@ -53,17 +54,20 @@ Sr. No. | Role
 3 | Module Lead (ML)
 4 | Team Lead (TL)
 
-## 3.1 Actions
+## 3.1 RBAC Table [Actions]
 
-There are several actions a user will perform in the system according to the role they have, they are outlined below
-Sr. No. | Action | Description | Roles
-------------- | ------------- | ------------- | -------------
-1 | Login | Logs in to the system | Unauthenticated
-2 | Logout | Logs out from the system | Developer, Module Lead, Team Lead
-3 | Create Module | Creates a new module | Team Lead
-4 | Edit Module | Edits an existing module | Team Lead
-5 | Delete Module | Delete an existing module | Team Lead
-6 | Assign Module Lead | Assigns a lead to a module | Team Lead
+There are several actions a user may perform in the system according to the role they have, they are outlined below
+
+| Action             | Unauthenticated    | Developer               | Module Lead             | Team Lead          |
+| ------------------ | ------------------ | ----------------------- | ----------------------- | ------------------ |
+| Login              | :white_check_mark: | :white_check_mark:      | :white_check_mark:      | :white_check_mark: |
+| View All Employees | :x:                | :x:                     | :x:                     | :white_check_mark: |
+| Create Module      | :x:                | :x:                     | :x:                     | :white_check_mark: |
+| Create Tags        | :x:                | :x:                     | :x:                     | :white_check_mark: |
+| Read Module        | :x:                | Only if added to module | Only if added to module | :white_check_mark: |
+| Edit Module        | :x:                | :x:                     | :x:                     | :white_check_mark: |
+| Delete Module      | :x:                | :x:                     | :x:                     | :white_check_mark: |
+| Update Module Lead | :x:                | :x:                     | :x:                     | :white_check_mark: |
 
 ## 4.1 ER Diagram
 

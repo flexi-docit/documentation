@@ -1,4 +1,4 @@
-_Last updated 08-February-2023_
+ _Last updated 23-February-2023_
 
 ## 1.0 Introduction
 
@@ -58,16 +58,20 @@ Sr. No. | Role
 
 There are several actions a user may perform in the system according to the role they have, they are outlined below
 
-| Action             | Unauthenticated    | Developer               | Module Lead             | Team Lead          |
-| ------------------ | ------------------ | ----------------------- | ----------------------- | ------------------ |
-| Login              | :white_check_mark: | :white_check_mark:      | :white_check_mark:      | :white_check_mark: |
-| View All Employees | :x:                | :x:                     | :x:                     | :white_check_mark: |
-| Create Module      | :x:                | :x:                     | :x:                     | :white_check_mark: |
-| Create Tags        | :x:                | :x:                     | :white_check_mark:      | :white_check_mark: |
-| Read Module        | :x:                | Only if added to module | Only if added to module | :white_check_mark: |
-| Edit Module        | :x:                | :x:                     | Only if module lead     | :white_check_mark: |
-| Delete Module      | :x:                | :x:                     | :x:                     | :white_check_mark: |
-| Update Module Lead | :x:                | :x:                     | :x:                     | :white_check_mark: |
+| Action             | Unauthenticated    | Developer [IFF added to module] | Module Lead [IFF that Module's Lead] | Team Lead          |
+| ------------------ | ------------------ | ------------------------------- | ------------------------------------ | ------------------ |
+| Login              | :white_check_mark: | :white_check_mark:              | :white_check_mark:                   | :white_check_mark: |
+| View All Employees | :x:                | :x:                             | :x:                                  | :white_check_mark: |
+| Create Module      | :x:                | :x:                             | :x:                                  | :white_check_mark: |
+| Create Tags        | :x:                | :x:                             | :white_check_mark:                   | :white_check_mark: |
+| Read Module        | :x:                | :white_check_mark:              | :white_check_mark:                   | :white_check_mark: |
+| Edit Module        | :x:                | :x:                             | :white_check_mark:                   | :white_check_mark: |
+| Delete Module      | :x:                | :x:                             | :x:                                  | :white_check_mark: |
+| Update Module Lead | :x:                | :x:                             | :x:                                  | :white_check_mark: |
+| Create Documents   | :x:                | :x:                             | :white_check_mark:                   | :white_check_mark: |
+| Read Documents     | :x:                | :white_check_mark:              | :white_check_mark:                   | :white_check_mark: |
+| Edit Documents     | :x:                | :white_check_mark:              | :white_check_mark:                   | :white_check_mark: |
+| Delete Documents   | :x:                | :x:                             | :white_check_mark:                   | :white_check_mark: |
 
 ## 4.1 ER Diagram
 

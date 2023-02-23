@@ -63,9 +63,9 @@ There are several actions a user may perform in the system according to the role
 | Login              | :white_check_mark: | :white_check_mark:      | :white_check_mark:      | :white_check_mark: |
 | View All Employees | :x:                | :x:                     | :x:                     | :white_check_mark: |
 | Create Module      | :x:                | :x:                     | :x:                     | :white_check_mark: |
-| Create Tags        | :x:                | :x:                     | :x:                     | :white_check_mark: |
+| Create Tags        | :x:                | :x:                     | :white_check_mark:      | :white_check_mark: |
 | Read Module        | :x:                | Only if added to module | Only if added to module | :white_check_mark: |
-| Edit Module        | :x:                | :x:                     | :x:                     | :white_check_mark: |
+| Edit Module        | :x:                | :x:                     | Only if module lead     | :white_check_mark: |
 | Delete Module      | :x:                | :x:                     | :x:                     | :white_check_mark: |
 | Update Module Lead | :x:                | :x:                     | :x:                     | :white_check_mark: |
 

@@ -1,5 +1,7 @@
 # Sprint 1
+
 ## COMPLETED ON 14-02-2023
+
 In this sprint, starting February 1st 2023, we will be dealing with the following user stories.
 
 - [x] As a developer, I should be able to login to the dms portal using my email & a pre-generated password so that I can access it.

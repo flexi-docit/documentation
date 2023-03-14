@@ -22,7 +22,7 @@ This is the requirement document for Documentation Management System (DMS) and a
 | 3       | As a developer, I should be able to see the list of modules that I am a part of their details like number of employees, team lead, modules included, etc. |
 | 4       | As a developer I can read the documentation I am a part of.                                                                                               |
 | 5       | As a module lead, I want to allow access to my module to employees.                                                                                       |
-| 6       | As a module lead, I want to create, edit and delete module-related documentats.                                                                           |
+| 6       | As a module lead, I want to create, edit and delete module-related documents.                                                                           |
 | 7       | As a module lead, I can view my team and their details.                                                                                                   |
 | 8       | As a team lead, I want to create, edit and delete modules for my project.                                                                                 |
 | 9       | As a team lead, I can assign upto one employee per module as module lead.                                                                                 |
